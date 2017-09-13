@@ -3,18 +3,21 @@
     <head>
         <title>We Need Your Help</title>
         <link rel="stylesheet" href="../css/style.css"/>
-        <link rel="stylesheet" href="../buttons/bttn.min.css">
     </head>
-    <body id="Home">
+    <body id="home">
         <div class="banner">
-          <nav>
-            <ul class="banner_ul">
-              <div class="menu_icon_container">
-                <div class="menu_bar1"></div>
-                <div class="menu_bar2"></div>
-                <div class="menu_bar3"></div>
-              </di>
-            </ul>
+          <nav role="navigation">
+            <div id="menuToggle">
+              <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul id="menu">
+                <a href="index.html"><li>Home</li></a>
+                <a href="donation.html"><li>Donations</li></a>
+                <a href="imagegallery.html"><li>ImageGallery</li></a>
+              </ul>
+            </div>
           </nav>
           <div class="slogan">
             <h1>We Need <br> Your Help.</h1>
@@ -31,14 +34,16 @@
         </div>
         <footer>
           <ul class="social_media">
-            <li><a href="#"><img src="../media_icons/insta.png" alt=""></a></li>
-            <li><a href="#"><img src="../media_icons/facebook.png" alt=""></a></li>
-            <li><a href="#"><img src="../media_icons/twitter.png" alt=""></a></li>
+            <li><a href="http://www.instagram.com"><img src="../media_icons/insta.png" target="_blank" alt=""></a></li>
+            <li><a href="http://www.facebook.com"><img src="../media_icons/facebook.png" alt=""></a></li>
+            <li><a href="http://www.twitter.com"><img src="../media_icons/twitter.png" alt=""></a></li>
           </ul>
           <ul class="policy">
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">Policy &amp; Res</a></li>
           </ul>
         </footer>
+
+        <script src="../js/script.js"></script>
     </body>
 </html>
