@@ -61,18 +61,6 @@
               <h2 class="font">With your help...</h2>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
-            <div class="donate_effect">
-              <ul>
-                <li><span class="font donation_value">$1.00</span>Lorum Ipsum is simply a dummy text</li>
-                <li><span class="font donation_value">$5.00</span>Lorum Ipsum is simply a dummy text</li>
-                <li><span class="font donation_value">$10.00</span>Lorum Ipsum is simply a dummy text</li>
-                <li><span class="font donation_value">$25.00</span>Lorum Ipsum is simply a dummy text</li>
-                <li><span class="font donation_value">$50.00</span>Lorum Ipsum is simply a dummy text</li>
-                <li><span class="font donation_value">$100.00</span>Lorum Ipsum is simply a dummy text</li>
-                <li><span class="font donation_value">$500.00</span>Lorum Ipsum is simply a dummy text</li>
-                <li><span class="font donation_value">$1,000.00</span>Lorum Ipsum is simply a dummy text</li>
-              </ul>
-            </div>
           </div>
 
           <div class="doner_title">Previous Donors</div>
@@ -96,16 +84,80 @@
           </div>
 
           <div class="form">
-            <form action="/post">
-              <label for="firstname">Firstname:</label>
-              <input type="text" name="firstname">
-              <label for="lastname">Lastname:</label>
-              <input type="text" name="lastname">
-              <label for="emailaddress">Email Address:</label>
-              <input type="email" name="emailaddress">
-              <button>Next</button>
+            <p>Donate now</p>
+            <form id="form">
+              <label class="fullname" id="fullname_label" for="fullname">Fullname  </label>
+              <input class="fullname" id="fullname_input" type="text" name ="fullname">
+              <label class="email" id="email_label" for="emailaddress">Email Address</label>
+              <input class="email" id="email_input" type="email" name="emailaddress">
+              <button id="next" class=" ">Next</button>
             </form>
+            <div class="userPayment" id="mastercard_form">
+              <label for="cardOwner" id="cardOwner">CardHolder</label>
+              <input type="text" id="ownerInput">
+              <label for="cardNumber" id="cardNumLabel">Card Number</label>
+              <input type="text" id="cardNumInput">
+
+              <label for="ccvLabel" id="ccvLabel">CCV</label>
+              <input type="text" id="ccvInput">
+
+              <select name="monthOfYear" id="monthOfYear">
+                <option value="">January</option>
+                <option value="">February</option>
+                <option value="">March</option>
+                <option value="">April</option>
+                <option value="">May</option>
+                <option value="">June</option>
+                <option value="">July</option>
+                <option value="">August</option>
+                <option value="">September</option>
+                <option value="">October</option>
+                <option value="">November</option>
+                <option value="">December</option>
+              </select>
+
+              <select name="year" id="year">
+                <option value="">2017</option>
+                <option value="">2018</option>
+                <option value="">2019</option>
+                <option value="">2020</option>
+                <option value="">2021</option>
+                <option value="">2022</option>
+                <option value="">2023</option>            
+              </select>
+
+              <button id="submit">Submit</button>
+            </div>
+            <div id="payment" class="payment_icons display">
+              <p>Select a donation value on the right</p>
+              <span id="donation_value"></span>
+              <a class="paypal" href="http://www.paypal.com"><img src="../images/paypal.png" alt=""></a>
+              <img id="mc" class="mastercard" src="../images/mastercard.png" alt="">
+            </div>
           </div>
+          <div class="donate_prices">
+            <ul>
+              <li><span id="one_d">$1.00</span> - water will be supplied to all elephants</li>
+              <li><span id="five_d">$5.00</span></li>
+              <li><span id="ten_d">$10.00</span></li>
+              <li><span id="twentyfive_d">$25.00</span></li>
+              <li><span id="fifty_d">$50.00</span></li>
+              <li><span id="hun_d">$100.00</span></li>
+              <li><span id="fivehun_d">$500.00</span></li>
+              <li><span id="thous">$1,000.00</span></li>
+            </ul>
+          </div>
+
+          <footer>
+            <ul class="social_media">
+              <li class="icons" ><a href="http://www.instagram.com"><img src="../media_icons/insta.png" target="_blank" alt=""></a></li>
+              <li class="icons" ><a href="http://www.facebook.com"><img src="../media_icons/facebook.png" alt=""></a></li>
+              <li class="icons" ><a href="http://www.twitter.com"><img src="../media_icons/twitter.png" alt=""></a></li>
+            </ul>
+            <ul class="top">
+              <li><a href="#">Top</a></li>
+            </ul>
+          </footer>
       <script src="../js/script.js"></script>
     </body>
 </html>
