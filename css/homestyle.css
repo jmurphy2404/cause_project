@@ -5,6 +5,8 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #e8e8e8;
+
 }
 @font-face {
   font-family: African;
@@ -18,6 +20,7 @@ a
 {
   text-decoration: none; 
   transition: color 0.3s ease;
+  color: white;
 }
 
 a:hover
@@ -111,7 +114,6 @@ a:hover
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased; 
   transform-origin: 0% 0%;
@@ -135,10 +137,10 @@ a:hover
 
 /*LandingPageBanner*/
 
-#home .banner {
+.banner {
   background-image: url(../images/elephant_watercolor.jpg);
   background-size: cover;
-  height: 500px;
+  height: 550px;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -179,43 +181,66 @@ h1 {
 }
 
 /*Before Mid Content*/
-.before_wrapper{
+
+.about_wrapper{
   margin: 0 auto;
-  width: 800px;
-  height: 400px;
+  width: 900px;
+  height: 340px;
+  display: flex;
 }
 #home_h2 {
   text-transform: uppercase;
   font-family: African;
   font-weight: 300;
   text-align: center;
-
+  font-size: 70px;
+  margin-top: 150px;
 }
+
+.col_mid {
+  display: flex;
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+.img_info {
+  flex: 1;
+  text-align: center;
+  font-size: 25px;
+  font-family: sans-serif;
+  line-height: 1.5em;
+}
+
+#logo_name {
+  font-family: African;
+}
+
 
 /*Mid Content*/
 
 .main_wrapper {
   width: 1440px;
-  background-color: rgb(197, 173, 139);
+  background-color: rgb(231,128,85);
 }
 
 
 .main_content {
   display: flex;
-  background-color: black;
+  background-color: #e8e8e8;
   width: 980px;
   margin: 30px auto 30px auto;
 }
 
 .map {
   flex: 2;
-  background-color: blue;
+  background-color: #e8e8e8;
   height: 700px;
 }
 
 .map_info {
   flex: 1;
-  background-color: yellow;
+  background-color: #e8e8e8;
   height: 400px;
 }
 
@@ -245,7 +270,7 @@ footer {
   position: relative;
   bottom: 0;
   vertical-align: bottom;
-  background-color: rgb(161, 156, 150);
+  background-color: #e8e8e8;
   margin-bottom: 0;
 }
 
@@ -281,7 +306,15 @@ a {
   font-family: African;
   color: green;
 }
+
 /*********************DONATIONS*****************/
+
+
+/************FORM*************/
+.form {
+  width: 100%;
+  height: 600px;
+}
 
 
 
