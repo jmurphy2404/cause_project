@@ -233,6 +233,11 @@ a:hover
   flex: 1;
 }
 
+#donation_graph {
+  display: inline-block;
+  height: 500px;
+}
+
 .donate_section {
   flex: 1;
   border-right: 1px solid black;
