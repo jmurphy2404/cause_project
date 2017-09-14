@@ -219,6 +219,24 @@ h1 {
   height: 400px;
 }
 
+@keyframes mapLoad1 {
+  0% {}
+  50% {}
+  100% {}
+}
+
+@keyframes mapLoad2 {
+  0% {}
+  50% {}
+  100% {}
+}
+
+@keyframes mapLoad3 { 
+  0% {}
+  50% {}
+  100% {}
+}
+
 
 /*FOOTER*/
 
