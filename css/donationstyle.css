@@ -242,6 +242,11 @@ a:hover
 .donate_section {
   flex: 1;
   padding: 10px;
+  font-family: African;
+}
+
+.donate_section > p {
+  line-height: 26px;
 }
 
 .donate_effect {
@@ -482,6 +487,7 @@ left: 50px;
 }
 
 .donate_prices > ul > li {
+  font-family: African;
   list-style: none;
 }
 
