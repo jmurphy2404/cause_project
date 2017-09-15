@@ -245,22 +245,55 @@ h1 {
   height: 400px;
 }
 
-@keyframes mapLoad1 {
-  0% {}
-  50% {}
-  100% {}
+.map_image {
+  position: absolute;
+  width: 700px;
+  top: 1150px;
+  left: 200px;
 }
 
-@keyframes mapLoad2 {
-  0% {}
-  50% {}
-  100% {}
+.map_hide {
+  display: none;
 }
 
-@keyframes mapLoad3 { 
-  0% {}
-  50% {}
-  100% {}
+
+@keyframes mapLoadA {
+  0%{ opacity: 1; }
+  25%{ opacity: 0; }
+  50%{ opacity: 0; }
+  75%{ opacity: 0; }
+  100%{ opacity: 0; }
+
+}
+#map1 {
+  animation-name: mapLoadA;
+  animation-duration: 10s;
+}
+
+@keyframes mapLoadB {
+  0%{ opacity: 0; }
+  25%{ opacity: 1; }
+  50%{ opacity: 0; }
+  75%{ opacity: 0; }
+  100%{ opacity: 0; }
+}
+
+#map2 {
+  animation-name: mapLoadB;
+  animation-duration: 10s;
+}
+
+@keyframes mapLoadC { 
+  0%{ opacity: 0; }
+  25%{ opacity: 0; }
+  50%{ opacity: 1; }
+  75%{ opacity: 1; }
+  100%{ opacity: 1; }
+}
+
+#map3 {
+  animation-name: mapLoadC;
+  animation-duration: 10s;
 }
 
 
