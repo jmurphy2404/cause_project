@@ -133,3 +133,93 @@ a:hover
   transform: scale(1.0, 1.0);
   opacity: .4;
 }
+
+
+/**********LOGO***********/
+.logo {
+  width: 130px;
+  height: 60px;
+  float: right;
+  margin-right: 20px;
+}
+
+.logo_img{
+  width: 130px;
+}
+
+/*******IMAGE GALLERY CONTENT**********/
+
+.main_content {
+  width: 1400px;
+  margin: 200px auto 0 auto;
+}
+
+.main_content > div {
+  display: flex;
+  margin: 0 auto;
+}
+
+.main_content > div > img {
+  flex: 1;
+  justify-content: space-between;
+  width: 300px;
+  height: 350px;
+  margin: 10px;
+
+}
+
+
+
+/******FOOTER***********/
+
+footer {
+  height: 70px;
+  position: relative;
+  bottom: 0;
+  vertical-align: bottom;
+  background-color: #e8e8e8;
+  margin-bottom: 0;
+}
+
+.social_media {
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+
+.social_media > li {
+  margin-left: 30px;
+}
+
+.social_media > li > a > img {
+  width: 40px;
+}
+
+.top {
+  margin-left: 1100px;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 50px;
+}
+
+.top > li {
+  list-style: none;
+}
+
+.top > li > a {
+  text-decoration: none;
+  font-family: African;
+  color: green;
+  padding-bottom: 30px;
+}
+
+.icons {
+  float: left;
+  list-style: none;
+}
+
+.icons > a {
+  text-decoration: none;
+  font-family: African;
+  color: green;
+}
