@@ -262,6 +262,11 @@ h2 {
   font-weight: 400;
 }
 
+.font_p {
+  font-family: African;
+  font-weight: 200;
+}
+
 
 .donate_effect > ul > li {
   list-style: none;
