@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
   function userInfo(){
-    'use strict';
+    console.log("hello");
 
     let fullname = document.getElementById("fullname_input");
     let email = document.getElementById("email_input");
@@ -99,20 +99,6 @@ document.addEventListener("DOMContentLoaded", function(){
     paymentShow();
   });
 
-
-  function showMaps(){
-
-    let map_1 = document.getElementById("map1");
-    let map_2 = document.getElementById("map2");
-    let map_3 = document.getElementById('map3');
-
-    let myMaps = [map_1, map_2, map_3];
-
-    for(var i = 0; i < myMaps.length; i++){
-      myMaps[i].style.animationDuration = "2s";
-    }
-    return showMaps();
-  }
 
 });
 
